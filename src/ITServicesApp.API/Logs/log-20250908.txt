@@ -1,0 +1,479 @@
+2025-09-08 17:31:21.504 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-08 17:31:26.663 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-08 17:31:33.157 +05:00 [INF] Seeding complete.
+2025-09-08 17:31:33.771 +05:00 [INF] Now listening on: https://localhost:7121
+2025-09-08 17:31:33.774 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-08 17:31:34.045 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-08 17:31:34.048 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-08 17:31:34.050 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-08 17:31:34.120 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-08 17:31:34.123 +05:00 [INF] Hosting environment: Development
+2025-09-08 17:31:34.126 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-08 17:31:34.527 +05:00 [INF] Server desktop-91hb9ir:10320:300de253 successfully announced in 402.9991 ms
+2025-09-08 17:31:34.544 +05:00 [INF] Server desktop-91hb9ir:10320:300de253 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-08 17:31:34.638 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-08 17:31:34.934 +05:00 [INF] Server desktop-91hb9ir:10320:300de253 all the dispatchers started
+2025-09-08 17:33:41.768 +05:00 [INF] HTTP GET /swagger responded 301 in 17.9728 ms
+2025-09-08 17:33:42.145 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 218.5470 ms
+2025-09-08 17:33:42.271 +05:00 [INF] HTTP GET /swagger/index.css responded 200 in 83.6390 ms
+2025-09-08 17:33:42.368 +05:00 [INF] HTTP GET /swagger/index.js responded 200 in 40.5284 ms
+2025-09-08 17:33:42.383 +05:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 198.9806 ms
+2025-09-08 17:33:42.419 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 235.2728 ms
+2025-09-08 17:33:42.709 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 501.7895 ms
+2025-09-08 17:33:43.307 +05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.9622 ms
+2025-09-08 17:33:43.381 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 129.2207 ms
+2025-09-08 18:13:27.640 +05:00 [INF] HTTP GET /api/service/categories => 307 in 21.389 ms
+2025-09-08 18:13:27.679 +05:00 [INF] HTTP GET /api/service/categories responded 307 in 213.9959 ms
+2025-09-08 18:13:29.604 +05:00 [INF] HTTP GET /api/service/categories => 307 in 0.142 ms
+2025-09-08 18:13:29.623 +05:00 [INF] HTTP GET /api/service/categories responded 307 in 25.7931 ms
+2025-09-08 18:15:12.742 +05:00 [INF] HTTP POST /api/auth/login => 307 in 0.061 ms
+2025-09-08 18:15:12.755 +05:00 [INF] HTTP POST /api/auth/login responded 307 in 24.6677 ms
+2025-09-08 18:15:50.147 +05:00 [INF] HTTP POST /api/auth/login => 307 in 0.039 ms
+2025-09-08 18:15:50.176 +05:00 [INF] HTTP POST /api/auth/login responded 307 in 32.3719 ms
+2025-09-08 18:25:34.016 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-08 18:25:35.924 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-08 18:25:39.276 +05:00 [INF] Seeding complete.
+2025-09-08 18:25:40.054 +05:00 [INF] Now listening on: https://localhost:7121
+2025-09-08 18:25:40.071 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-08 18:25:40.535 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-08 18:25:40.554 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-08 18:25:40.556 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-08 18:25:40.684 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-08 18:25:40.691 +05:00 [INF] Hosting environment: Development
+2025-09-08 18:25:40.697 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-08 18:25:40.977 +05:00 [INF] Server desktop-91hb9ir:2428:eaff6f77 successfully announced in 284.9804 ms
+2025-09-08 18:25:41.021 +05:00 [INF] Server desktop-91hb9ir:2428:eaff6f77 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-08 18:25:41.466 +05:00 [INF] Server desktop-91hb9ir:2428:eaff6f77 all the dispatchers started
+2025-09-08 18:26:53.991 +05:00 [INF] HTTP POST /api/auth/login => 307 in 3.187 ms
+2025-09-08 18:26:54.018 +05:00 [INF] HTTP POST /api/auth/login responded 307 in 91.4811 ms
+2025-09-08 18:28:28.685 +05:00 [INF] HTTP GET /api/service/categories => 307 in 0.175 ms
+2025-09-08 18:28:28.698 +05:00 [INF] HTTP GET /api/service/categories responded 307 in 20.0338 ms
+2025-09-08 18:28:30.060 +05:00 [INF] HTTP GET /api/service/categories => 307 in 3.062 ms
+2025-09-08 18:28:30.072 +05:00 [INF] HTTP GET /api/service/categories responded 307 in 18.5012 ms
+2025-09-08 18:30:41.754 +05:00 [INF] HTTP GET /api/service/categories => 307 in 0.045 ms
+2025-09-08 18:30:41.780 +05:00 [INF] HTTP GET /api/service/categories responded 307 in 27.2998 ms
+2025-09-08 18:30:42.209 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-08 18:31:38.930 +05:00 [INF] HTTP GET /api/service/categories => 307 in 0.051 ms
+2025-09-08 18:31:39.052 +05:00 [INF] HTTP GET /api/service/categories responded 307 in 150.7376 ms
+2025-09-08 18:36:51.479 +05:00 [INF] HTTP GET /api/service/categories => 307 in 0.080 ms
+2025-09-08 18:36:51.499 +05:00 [INF] HTTP GET /api/service/categories responded 307 in 44.6135 ms
+2025-09-08 18:51:35.854 +05:00 [INF] Server desktop-91hb9ir:2428:eaff6f77 caught stopping signal...
+2025-09-08 18:51:36.298 +05:00 [INF] Application is shutting down...
+2025-09-08 18:51:36.305 +05:00 [INF] Server desktop-91hb9ir:2428:eaff6f77 All dispatchers stopped
+2025-09-08 18:51:36.365 +05:00 [INF] Server desktop-91hb9ir:2428:eaff6f77 successfully reported itself as stopped in 44.3037 ms
+2025-09-08 18:51:36.369 +05:00 [INF] Server desktop-91hb9ir:2428:eaff6f77 has been stopped in total 166.5749 ms
+2025-09-08 19:11:56.753 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-08 19:11:57.849 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-08 19:12:00.274 +05:00 [INF] Seeding complete.
+2025-09-08 19:12:00.759 +05:00 [INF] Now listening on: https://localhost:7121
+2025-09-08 19:12:00.763 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-08 19:12:00.943 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-08 19:12:00.975 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-08 19:12:00.983 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-08 19:12:01.051 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-08 19:12:01.058 +05:00 [INF] Hosting environment: Development
+2025-09-08 19:12:01.112 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-08 19:12:01.276 +05:00 [INF] Server desktop-91hb9ir:20124:345ce1a9 successfully announced in 224.1951 ms
+2025-09-08 19:12:01.322 +05:00 [INF] Server desktop-91hb9ir:20124:345ce1a9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-08 19:12:01.794 +05:00 [INF] Server desktop-91hb9ir:20124:345ce1a9 all the dispatchers started
+2025-09-08 19:23:32.074 +05:00 [INF] HTTP POST /api/auth/login => 307 in 8.815 ms
+2025-09-08 19:23:32.122 +05:00 [INF] HTTP POST /api/auth/login responded 307 in 159.4675 ms
+2025-09-08 19:24:22.864 +05:00 [INF] HTTP POST /api/auth/login => 307 in 0.144 ms
+2025-09-08 19:24:22.873 +05:00 [INF] HTTP POST /api/auth/login responded 307 in 20.3729 ms
+2025-09-08 19:24:43.460 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 389.3220 ms
+2025-09-08 19:25:12.473 +05:00 [INF] HTTP POST /api/Auth/login => 307 in 0.072 ms
+2025-09-08 19:25:12.484 +05:00 [INF] HTTP POST /api/Auth/login responded 307 in 27.5735 ms
+2025-09-08 19:25:12.583 +05:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 0.6326 ms
+2025-09-08 19:27:55.280 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-08 19:27:56.242 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-08 19:27:59.012 +05:00 [INF] Seeding complete.
+2025-09-08 19:27:59.527 +05:00 [INF] Now listening on: https://localhost:7121
+2025-09-08 19:27:59.532 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-08 19:27:59.793 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-08 19:27:59.803 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-08 19:27:59.852 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-08 19:27:59.925 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-08 19:27:59.929 +05:00 [INF] Hosting environment: Development
+2025-09-08 19:27:59.933 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-08 19:28:00.190 +05:00 [INF] Server desktop-91hb9ir:19360:5a14c793 successfully announced in 262.3291 ms
+2025-09-08 19:28:00.244 +05:00 [INF] Server desktop-91hb9ir:19360:5a14c793 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-08 19:28:00.635 +05:00 [INF] Server desktop-91hb9ir:19360:5a14c793 all the dispatchers started
+2025-09-08 19:28:29.112 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 183.3514 ms
+2025-09-08 19:29:02.111 +05:00 [INF] HTTP POST /api/Auth/login => 307 in 3.327 ms
+2025-09-08 19:29:02.120 +05:00 [INF] HTTP POST /api/Auth/login responded 307 in 88.5681 ms
+2025-09-08 19:29:02.258 +05:00 [INF] HTTP OPTIONS /api/Auth/login responded 204 in 1.8439 ms
+2025-09-08 19:29:04.121 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-08 19:29:09.038 +05:00 [INF] HTTP POST /api/Auth/login => 200 in 6764.920 ms
+2025-09-08 19:29:09.049 +05:00 [INF] HTTP POST /api/Auth/login responded 200 in 6776.5342 ms
+2025-09-08 19:29:26.777 +05:00 [INF] HTTP POST /api/auth/login => 307 in 0.234 ms
+2025-09-08 19:29:26.790 +05:00 [INF] HTTP POST /api/auth/login responded 307 in 15.8812 ms
+2025-09-08 19:32:40.732 +05:00 [INF] Server desktop-91hb9ir:19360:5a14c793 caught stopping signal...
+2025-09-08 19:32:40.738 +05:00 [INF] Application is shutting down...
+2025-09-08 19:32:41.648 +05:00 [INF] Server desktop-91hb9ir:19360:5a14c793 caught stopped signal...
+2025-09-08 19:32:41.802 +05:00 [INF] Server desktop-91hb9ir:19360:5a14c793 All dispatchers stopped
+2025-09-08 19:32:41.840 +05:00 [INF] Server desktop-91hb9ir:19360:5a14c793 successfully reported itself as stopped in 4.204 ms
+2025-09-08 19:32:41.848 +05:00 [INF] Server desktop-91hb9ir:19360:5a14c793 has been stopped in total 1110.7984 ms
+2025-09-08 19:33:50.066 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-08 19:33:52.499 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-08 19:33:56.004 +05:00 [INF] Seeding complete.
+2025-09-08 19:33:56.502 +05:00 [INF] Now listening on: https://localhost:7121
+2025-09-08 19:33:56.512 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-08 19:33:56.712 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-08 19:33:56.757 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-08 19:33:56.760 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-08 19:33:56.804 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-08 19:33:56.824 +05:00 [INF] Hosting environment: Development
+2025-09-08 19:33:56.829 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-08 19:33:57.111 +05:00 [INF] Server desktop-91hb9ir:20684:d175ddfc successfully announced in 302.8047 ms
+2025-09-08 19:33:57.129 +05:00 [INF] Server desktop-91hb9ir:20684:d175ddfc is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-08 19:33:57.255 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-08 19:33:57.515 +05:00 [INF] Server desktop-91hb9ir:20684:d175ddfc all the dispatchers started
+2025-09-08 19:35:17.468 +05:00 [INF] Server desktop-91hb9ir:20684:d175ddfc caught stopping signal...
+2025-09-08 19:35:17.490 +05:00 [INF] Application is shutting down...
+2025-09-08 19:35:18.217 +05:00 [INF] Server desktop-91hb9ir:20684:d175ddfc All dispatchers stopped
+2025-09-08 19:35:18.230 +05:00 [INF] Server desktop-91hb9ir:20684:d175ddfc successfully reported itself as stopped in 3.662 ms
+2025-09-08 19:35:18.233 +05:00 [INF] Server desktop-91hb9ir:20684:d175ddfc has been stopped in total 760.8125 ms
+2025-09-08 19:36:23.135 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-08 19:36:25.179 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-08 19:36:27.906 +05:00 [INF] Seeding complete.
+2025-09-08 19:36:28.732 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-08 19:36:28.954 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-08 19:36:28.957 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-08 19:36:28.959 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-08 19:36:29.001 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-08 19:36:29.008 +05:00 [INF] Hosting environment: Development
+2025-09-08 19:36:29.043 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-08 19:36:29.264 +05:00 [INF] Server desktop-91hb9ir:11120:e8e4121e successfully announced in 260.2091 ms
+2025-09-08 19:36:29.277 +05:00 [INF] Server desktop-91hb9ir:11120:e8e4121e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-08 19:36:29.787 +05:00 [INF] Server desktop-91hb9ir:11120:e8e4121e all the dispatchers started
+2025-09-08 19:38:34.548 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-08 19:38:35.276 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-08 19:38:41.452 +05:00 [INF] HTTP POST /api/auth/login => 200 in 6917.132 ms
+2025-09-08 19:38:41.500 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 7065.7009 ms
+2025-09-08 19:39:20.196 +05:00 [INF] HTTP POST /api/auth/login => 200 in 32337.836 ms
+2025-09-08 19:39:20.263 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 32415.9204 ms
+2025-09-08 19:41:55.067 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 219.6309 ms
+2025-09-08 19:41:56.564 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 217.1864 ms
+2025-09-08 19:42:02.494 +05:00 [INF] HTTP GET /api/service/categories => 200 in 124.765 ms
+2025-09-08 19:42:02.551 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 183.5534 ms
+2025-09-08 19:42:07.188 +05:00 [INF] HTTP GET /api/service/categories/1/issues => 200 in 239.377 ms
+2025-09-08 19:42:07.258 +05:00 [INF] HTTP GET /api/service/categories/1/issues responded 200 in 311.3240 ms
+2025-09-08 19:42:14.942 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 17.4778 ms
+2025-09-08 19:42:14.950 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.6312 ms
+2025-09-08 19:42:15.084 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-08 19:42:15.148 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 19:42:15.428 +05:00 [INF] GetAvailableSlotsQuery took 268 ms
+2025-09-08 19:42:15.433 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 19:42:15.465 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 415.238 ms
+2025-09-08 19:42:15.479 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 19:42:15.479 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 430.1085 ms
+2025-09-08 19:42:15.534 +05:00 [INF] GetAvailableSlotsQuery took 39 ms
+2025-09-08 19:42:15.539 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 19:42:15.544 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 67.670 ms
+2025-09-08 19:42:15.559 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 83.7007 ms
+2025-09-08 19:42:21.513 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.5676 ms
+2025-09-08 19:42:21.529 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 19:42:21.582 +05:00 [INF] GetAvailableSlotsQuery took 48 ms
+2025-09-08 19:42:21.587 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 19:42:21.592 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 65.859 ms
+2025-09-08 19:42:21.598 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 72.9840 ms
+2025-09-08 19:42:29.198 +05:00 [INF] HTTP GET /api/service/categories => 200 in 7.610 ms
+2025-09-08 19:42:29.209 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 19.9573 ms
+2025-09-08 19:48:51.383 +05:00 [INF] HTTP POST /api/auth/login => 200 in 3717.440 ms
+2025-09-08 19:48:51.402 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 3764.1641 ms
+2025-09-08 19:48:52.043 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 580.136 ms
+2025-09-08 19:48:52.067 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 609.3697 ms
+2025-09-08 19:52:24.965 +05:00 [INF] HTTP POST /api/auth/login => 200 in 88854.943 ms
+2025-09-08 19:52:24.975 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 88867.4295 ms
+2025-09-08 19:52:24.993 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 5.993 ms
+2025-09-08 19:52:24.999 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 12.2531 ms
+2025-09-08 19:56:10.909 +05:00 [INF] HTTP POST /api/auth/login => 200 in 3006.805 ms
+2025-09-08 19:56:10.920 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 3040.0514 ms
+2025-09-08 19:56:10.944 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 14.393 ms
+2025-09-08 19:56:10.950 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 22.3531 ms
+2025-09-08 20:00:45.380 +05:00 [INF] HTTP POST /api/auth/login => 200 in 296.151 ms
+2025-09-08 20:00:45.387 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 305.2749 ms
+2025-09-08 20:00:45.412 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 8.400 ms
+2025-09-08 20:00:45.417 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 15.6117 ms
+2025-09-08 20:06:45.051 +05:00 [INF] HTTP POST /api/auth/login => 200 in 315.413 ms
+2025-09-08 20:06:45.064 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 342.2995 ms
+2025-09-08 20:06:45.152 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 23.594 ms
+2025-09-08 20:06:45.159 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 74.7041 ms
+2025-09-08 20:10:01.494 +05:00 [INF] HTTP POST /api/auth/login => 200 in 407.182 ms
+2025-09-08 20:10:01.539 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 460.4762 ms
+2025-09-08 20:10:01.669 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 33.153 ms
+2025-09-08 20:10:01.683 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 52.1942 ms
+2025-09-08 20:15:33.609 +05:00 [INF] HTTP POST /api/auth/login => 200 in 282.201 ms
+2025-09-08 20:15:33.618 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 299.3442 ms
+2025-09-08 20:15:33.656 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 18.252 ms
+2025-09-08 20:15:33.666 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 29.0048 ms
+2025-09-08 20:18:09.808 +05:00 [INF] HTTP POST /api/auth/login => 200 in 305.856 ms
+2025-09-08 20:18:09.815 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 314.4991 ms
+2025-09-08 20:18:09.838 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 9.067 ms
+2025-09-08 20:18:09.849 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 18.1823 ms
+2025-09-08 20:19:11.410 +05:00 [INF] HTTP POST /api/auth/login => 200 in 189.809 ms
+2025-09-08 20:19:11.417 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 207.9608 ms
+2025-09-08 20:19:11.445 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 13.887 ms
+2025-09-08 20:19:11.460 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 29.4379 ms
+2025-09-08 20:19:15.022 +05:00 [INF] HTTP OPTIONS /api/admin/dashboard responded 204 in 6.9356 ms
+2025-09-08 20:19:15.043 +05:00 [INF] HTTP OPTIONS /api/admin/dashboard responded 204 in 4.6111 ms
+2025-09-08 20:19:15.157 +05:00 [INF] Handling GetDashboardStatsQuery
+2025-09-08 20:19:15.421 +05:00 [INF] GetDashboardStatsQuery took 259 ms
+2025-09-08 20:19:15.429 +05:00 [INF] Handled GetDashboardStatsQuery
+2025-09-08 20:19:15.491 +05:00 [INF] HTTP GET /api/admin/dashboard => 200 in 431.706 ms
+2025-09-08 20:19:15.496 +05:00 [INF] Handling GetDashboardStatsQuery
+2025-09-08 20:19:15.499 +05:00 [INF] HTTP GET /api/admin/dashboard responded 200 in 439.3591 ms
+2025-09-08 20:19:15.542 +05:00 [INF] GetDashboardStatsQuery took 33 ms
+2025-09-08 20:19:15.547 +05:00 [INF] Handled GetDashboardStatsQuery
+2025-09-08 20:19:15.552 +05:00 [INF] HTTP GET /api/admin/dashboard => 200 in 58.210 ms
+2025-09-08 20:19:15.561 +05:00 [INF] HTTP GET /api/admin/dashboard responded 200 in 66.1556 ms
+2025-09-08 20:19:26.503 +05:00 [INF] HTTP OPTIONS /api/technician/me responded 204 in 0.4492 ms
+2025-09-08 20:19:26.513 +05:00 [INF] HTTP OPTIONS /api/technician/me responded 204 in 0.2384 ms
+2025-09-08 20:19:53.009 +05:00 [ERR] Unhandled exception. TraceId=0HNFESLHMQR3J:00000002
+System.InvalidOperationException: Technician profile not found for current user.
+   at ITServicesApp.Infrastructure.Services.TechnicianService.GetMyProfileAsync(CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Infrastructure\Services\TechnicianService.cs:line 96
+   at ITServicesApp.API.Controllers.TechnicianController.Me(CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.API\Controllers\TechnicianController.cs:line 28
+   at lambda_method279(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-08 20:19:58.741 +05:00 [ERR] Unhandled exception. TraceId=0HNFESLHMQR3L:00000001
+System.InvalidOperationException: Technician profile not found for current user.
+   at ITServicesApp.Infrastructure.Services.TechnicianService.GetMyProfileAsync(CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Infrastructure\Services\TechnicianService.cs:line 96
+   at ITServicesApp.API.Controllers.TechnicianController.Me(CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.API\Controllers\TechnicianController.cs:line 28
+   at lambda_method279(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-08 20:19:59.019 +05:00 [ERR] HTTP GET /api/technician/me responded 500 in 32490.4070 ms
+2025-09-08 20:19:59.073 +05:00 [ERR] HTTP GET /api/technician/me responded 500 in 7893.1194 ms
+2025-09-08 20:35:52.949 +05:00 [INF] HTTP POST /api/auth/login => 200 in 384.243 ms
+2025-09-08 20:35:52.966 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 429.0526 ms
+2025-09-08 20:35:53.007 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 25.141 ms
+2025-09-08 20:35:53.013 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 33.7886 ms
+2025-09-08 20:47:38.718 +05:00 [INF] HTTP POST /api/auth/login => 200 in 1004.265 ms
+2025-09-08 20:47:38.729 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 1342.5555 ms
+2025-09-08 20:47:38.790 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 29.608 ms
+2025-09-08 20:47:38.795 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 38.7201 ms
+2025-09-08 20:50:01.485 +05:00 [INF] HTTP POST /api/auth/login => 200 in 222.774 ms
+2025-09-08 20:50:01.492 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 239.8248 ms
+2025-09-08 20:50:01.525 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 15.692 ms
+2025-09-08 20:50:01.534 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 27.0273 ms
+2025-09-08 20:50:05.076 +05:00 [INF] HTTP OPTIONS /api/admin/dashboard responded 204 in 13.1488 ms
+2025-09-08 20:50:05.076 +05:00 [INF] HTTP OPTIONS /api/admin/dashboard responded 204 in 13.2843 ms
+2025-09-08 20:50:05.123 +05:00 [INF] Handling GetDashboardStatsQuery
+2025-09-08 20:50:05.206 +05:00 [INF] GetDashboardStatsQuery took 74 ms
+2025-09-08 20:50:05.212 +05:00 [INF] Handled GetDashboardStatsQuery
+2025-09-08 20:50:05.221 +05:00 [INF] HTTP GET /api/admin/dashboard => 200 in 121.979 ms
+2025-09-08 20:50:05.232 +05:00 [INF] HTTP GET /api/admin/dashboard responded 200 in 132.9658 ms
+2025-09-08 20:50:05.241 +05:00 [INF] Handling GetDashboardStatsQuery
+2025-09-08 20:50:05.290 +05:00 [INF] GetDashboardStatsQuery took 36 ms
+2025-09-08 20:50:05.296 +05:00 [INF] Handled GetDashboardStatsQuery
+2025-09-08 20:50:05.304 +05:00 [INF] HTTP GET /api/admin/dashboard => 200 in 66.103 ms
+2025-09-08 20:50:05.319 +05:00 [INF] HTTP GET /api/admin/dashboard responded 200 in 78.9507 ms
+2025-09-08 20:50:09.708 +05:00 [INF] HTTP OPTIONS /api/booking/me responded 204 in 0.1719 ms
+2025-09-08 20:50:09.710 +05:00 [INF] HTTP OPTIONS /api/booking/me responded 204 in 0.1752 ms
+2025-09-08 20:50:09.873 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-08 20:50:10.013 +05:00 [INF] ListMyBookingsQuery took 132 ms
+2025-09-08 20:50:10.018 +05:00 [INF] Handled ListMyBookingsQuery
+2025-09-08 20:50:10.048 +05:00 [INF] HTTP GET /api/booking/me => 200 in 282.507 ms
+2025-09-08 20:50:10.051 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-08 20:50:10.059 +05:00 [INF] HTTP GET /api/booking/me responded 200 in 294.2150 ms
+2025-09-08 20:50:10.082 +05:00 [INF] ListMyBookingsQuery took 20 ms
+2025-09-08 20:50:10.090 +05:00 [INF] Handled ListMyBookingsQuery
+2025-09-08 20:50:10.096 +05:00 [INF] HTTP GET /api/booking/me => 200 in 45.819 ms
+2025-09-08 20:50:10.105 +05:00 [INF] HTTP GET /api/booking/me responded 200 in 55.2859 ms
+2025-09-08 20:50:16.954 +05:00 [INF] HTTP GET /api/service/categories => 200 in 12.496 ms
+2025-09-08 20:50:16.960 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 19.4117 ms
+2025-09-08 20:50:19.566 +05:00 [INF] HTTP GET /api/service/categories/1/issues => 200 in 9.851 ms
+2025-09-08 20:50:19.573 +05:00 [INF] HTTP GET /api/service/categories/1/issues responded 200 in 17.6140 ms
+2025-09-08 20:50:22.145 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 3.0857 ms
+2025-09-08 20:50:22.148 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 3.8930 ms
+2025-09-08 20:50:22.175 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 20:50:22.267 +05:00 [INF] GetAvailableSlotsQuery took 79 ms
+2025-09-08 20:50:22.274 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 20:50:22.280 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 106.446 ms
+2025-09-08 20:50:22.285 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 20:50:22.296 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 122.3052 ms
+2025-09-08 20:50:22.359 +05:00 [INF] GetAvailableSlotsQuery took 56 ms
+2025-09-08 20:50:22.364 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 20:50:22.376 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 91.641 ms
+2025-09-08 20:50:22.391 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 106.6288 ms
+2025-09-08 20:50:29.678 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.1662 ms
+2025-09-08 20:50:29.692 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 20:50:29.734 +05:00 [INF] GetAvailableSlotsQuery took 29 ms
+2025-09-08 20:50:29.739 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 20:50:29.746 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 54.433 ms
+2025-09-08 20:50:29.756 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 64.5023 ms
+2025-09-08 20:50:47.754 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.3275 ms
+2025-09-08 20:50:47.930 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 20:50:47.989 +05:00 [INF] GetAvailableSlotsQuery took 46 ms
+2025-09-08 20:50:47.995 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 20:50:48.044 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 114.448 ms
+2025-09-08 20:50:48.077 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 147.8942 ms
+2025-09-08 20:51:43.572 +05:00 [ERR] Unhandled exception. TraceId=0HNFESLHMQR45:00000001
+System.InvalidOperationException: Invalid credentials.
+   at ITServicesApp.Infrastructure.Services.UserService.LoginAsync(LoginDto dto, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Infrastructure\Services\UserService.cs:line 127
+   at ITServicesApp.API.Controllers.AuthController.Login(LoginDto dto, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.API\Controllers\AuthController.cs:line 34
+   at lambda_method25(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-08 20:51:43.943 +05:00 [ERR] HTTP POST /api/auth/login responded 500 in 10455.5904 ms
+2025-09-08 20:52:02.414 +05:00 [INF] HTTP POST /api/auth/login => 200 in 247.966 ms
+2025-09-08 20:52:02.425 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 261.4136 ms
+2025-09-08 20:52:02.449 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 7.282 ms
+2025-09-08 20:52:02.459 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 17.5536 ms
+2025-09-08 20:52:21.512 +05:00 [INF] HTTP GET /api/service/categories => 200 in 14.706 ms
+2025-09-08 20:52:21.526 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 29.1290 ms
+2025-09-08 20:52:24.080 +05:00 [INF] HTTP GET /api/service/categories/1/issues => 200 in 19.465 ms
+2025-09-08 20:52:24.096 +05:00 [INF] HTTP GET /api/service/categories/1/issues responded 200 in 43.2160 ms
+2025-09-08 20:52:25.664 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.2299 ms
+2025-09-08 20:52:25.675 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 1.6085 ms
+2025-09-08 20:52:25.697 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 20:52:25.793 +05:00 [INF] GetAvailableSlotsQuery took 78 ms
+2025-09-08 20:52:25.815 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 20:52:25.825 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 127.951 ms
+2025-09-08 20:52:25.833 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 20:52:25.851 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 154.8056 ms
+2025-09-08 20:52:25.916 +05:00 [INF] GetAvailableSlotsQuery took 69 ms
+2025-09-08 20:52:25.926 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 20:52:25.933 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 100.615 ms
+2025-09-08 20:52:25.957 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 125.7622 ms
+2025-09-08 20:52:54.092 +05:00 [INF] Server desktop-91hb9ir:11120:e8e4121e caught stopping signal...
+2025-09-08 20:52:54.542 +05:00 [INF] Application is shutting down...
+2025-09-08 20:52:54.553 +05:00 [INF] Server desktop-91hb9ir:11120:e8e4121e All dispatchers stopped
+2025-09-08 20:52:54.643 +05:00 [INF] Server desktop-91hb9ir:11120:e8e4121e successfully reported itself as stopped in 19.1528 ms
+2025-09-08 20:52:54.648 +05:00 [INF] Server desktop-91hb9ir:11120:e8e4121e has been stopped in total 146.6071 ms
+2025-09-08 21:07:27.818 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-08 21:07:29.806 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-08 21:07:34.048 +05:00 [INF] Seeding complete.
+2025-09-08 21:07:34.521 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-08 21:07:34.806 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-08 21:07:34.812 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-08 21:07:34.815 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-08 21:07:34.908 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-08 21:07:34.918 +05:00 [INF] Hosting environment: Development
+2025-09-08 21:07:34.925 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-08 21:07:35.336 +05:00 [INF] Server desktop-91hb9ir:11260:d46cf948 successfully announced in 427.1834 ms
+2025-09-08 21:07:35.392 +05:00 [INF] Server desktop-91hb9ir:11260:d46cf948 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-08 21:07:35.831 +05:00 [INF] Server desktop-91hb9ir:11260:d46cf948 all the dispatchers started
+2025-09-08 21:08:01.134 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 644.7952 ms
+2025-09-08 21:08:02.463 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-08 21:08:03.475 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-08 21:08:03.693 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-08 21:08:04.386 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-08 21:08:06.927 +05:00 [INF] GetAvailableSlotsQuery took 3213 ms
+2025-09-08 21:08:06.935 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-08 21:08:07.044 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 4604.225 ms
+2025-09-08 21:08:07.060 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 4668.5485 ms
+2025-09-08 21:08:29.840 +05:00 [INF] HTTP POST /api/auth/login => 200 in 1223.231 ms
+2025-09-08 21:08:29.848 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 1235.4640 ms
+2025-09-08 21:08:30.161 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 284.927 ms
+2025-09-08 21:08:30.168 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 304.7194 ms
+2025-09-08 21:14:41.846 +05:00 [INF] HTTP GET /api/service/categories => 200 in 234.942 ms
+2025-09-08 21:14:41.869 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 273.7412 ms
+2025-09-08 21:14:53.126 +05:00 [INF] HTTP GET /api/service/categories => 200 in 21.696 ms
+2025-09-08 21:14:53.140 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 42.7362 ms
+2025-09-08 21:19:08.820 +05:00 [INF] Server desktop-91hb9ir:11260:d46cf948 caught stopping signal...
+2025-09-08 21:19:08.833 +05:00 [INF] Application is shutting down...
+2025-09-08 21:19:09.361 +05:00 [INF] Server desktop-91hb9ir:11260:d46cf948 caught stopped signal...
+2025-09-08 21:19:09.563 +05:00 [INF] Server desktop-91hb9ir:11260:d46cf948 All dispatchers stopped
+2025-09-08 21:19:09.601 +05:00 [INF] Server desktop-91hb9ir:11260:d46cf948 successfully reported itself as stopped in 13.8673 ms
+2025-09-08 21:19:09.605 +05:00 [INF] Server desktop-91hb9ir:11260:d46cf948 has been stopped in total 776.397 ms
+2025-09-08 21:25:00.450 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-08 21:25:01.816 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-08 21:25:05.945 +05:00 [INF] Seeding complete.
+2025-09-08 21:25:06.833 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-08 21:25:07.626 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-08 21:25:08.038 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-08 21:25:08.041 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-08 21:25:08.097 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-08 21:25:08.280 +05:00 [INF] Hosting environment: Development
+2025-09-08 21:25:08.288 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-08 21:25:08.582 +05:00 [INF] Server desktop-91hb9ir:17712:4c19af12 successfully announced in 482.2948 ms
+2025-09-08 21:25:08.634 +05:00 [INF] Server desktop-91hb9ir:17712:4c19af12 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-08 21:25:10.218 +05:00 [INF] Server desktop-91hb9ir:17712:4c19af12 all the dispatchers started
+2025-09-08 21:26:52.201 +05:00 [INF] Server desktop-91hb9ir:17712:4c19af12 caught stopping signal...
+2025-09-08 21:26:52.207 +05:00 [INF] Application is shutting down...
+2025-09-08 21:26:52.899 +05:00 [INF] Server desktop-91hb9ir:17712:4c19af12 caught stopped signal...
+2025-09-08 21:26:53.197 +05:00 [INF] Server desktop-91hb9ir:17712:4c19af12 All dispatchers stopped
+2025-09-08 21:26:53.240 +05:00 [INF] Server desktop-91hb9ir:17712:4c19af12 successfully reported itself as stopped in 7.0459 ms
+2025-09-08 21:26:53.243 +05:00 [INF] Server desktop-91hb9ir:17712:4c19af12 has been stopped in total 1037.6295 ms

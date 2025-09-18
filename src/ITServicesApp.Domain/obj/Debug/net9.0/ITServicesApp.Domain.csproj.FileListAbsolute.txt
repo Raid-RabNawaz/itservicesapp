@@ -1,0 +1,12 @@
+D:\Work\IT service app\src\ITServicesApp.Domain\bin\Debug\net9.0\ITServicesApp.Domain.deps.json
+D:\Work\IT service app\src\ITServicesApp.Domain\bin\Debug\net9.0\ITServicesApp.Domain.dll
+D:\Work\IT service app\src\ITServicesApp.Domain\bin\Debug\net9.0\ITServicesApp.Domain.pdb
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\ITServicesApp.Domain.csproj.AssemblyReference.cache
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\ITServicesApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\ITServicesApp.Domain.AssemblyInfoInputs.cache
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\ITServicesApp.Domain.AssemblyInfo.cs
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\ITServicesApp.Domain.csproj.CoreCompileInputs.cache
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\ITServicesApp.Domain.dll
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\refint\ITServicesApp.Domain.dll
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\ITServicesApp.Domain.pdb
+D:\Work\IT service app\src\ITServicesApp.Domain\obj\Debug\net9.0\ref\ITServicesApp.Domain.dll

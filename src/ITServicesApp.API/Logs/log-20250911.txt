@@ -1,0 +1,184 @@
+2025-09-11 13:31:21.934 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-11 13:31:41.031 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-11 13:31:46.172 +05:00 [INF] Seeding complete.
+2025-09-11 13:31:46.899 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-11 13:31:47.323 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-11 13:31:47.515 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-11 13:31:47.518 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-11 13:31:47.611 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 13:31:48.427 +05:00 [INF] Hosting environment: Development
+2025-09-11 13:31:48.449 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-11 13:31:48.483 +05:00 [INF] Server desktop-91hb9ir:18128:1c011d4c successfully announced in 873.2019 ms
+2025-09-11 13:31:48.505 +05:00 [INF] Server desktop-91hb9ir:18128:1c011d4c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-11 13:31:49.046 +05:00 [INF] Server desktop-91hb9ir:18128:1c011d4c all the dispatchers started
+2025-09-11 13:54:44.555 +05:00 [INF] HTTP GET /swagger responded 301 in 24.4585 ms
+2025-09-11 13:54:44.850 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 204.5401 ms
+2025-09-11 13:54:45.168 +05:00 [INF] HTTP GET /swagger/index.css responded 200 in 8.8943 ms
+2025-09-11 13:54:45.205 +05:00 [INF] HTTP GET /swagger/index.js responded 200 in 2.4638 ms
+2025-09-11 13:54:45.208 +05:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 327.9743 ms
+2025-09-11 13:54:45.215 +05:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 56.1697 ms
+2025-09-11 13:54:45.417 +05:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 258.2663 ms
+2025-09-11 13:54:46.108 +05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.9192 ms
+2025-09-11 13:54:46.306 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 264.8392 ms
+2025-09-11 13:56:43.619 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-11 13:56:47.330 +05:00 [INF] HTTP GET /api/service => 404 in 3723.067 ms
+2025-09-11 13:56:47.345 +05:00 [INF] HTTP GET /api/service responded 404 in 3810.7072 ms
+2025-09-11 14:12:09.703 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-11 14:12:12.515 +05:00 [INF] HTTP POST /api/auth/login => 200 in 4338.831 ms
+2025-09-11 14:12:12.538 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 4440.8395 ms
+2025-09-11 14:13:27.688 +05:00 [ERR] Unhandled exception. TraceId=0HNFH23D06H4T:00000002
+System.ArgumentException: The key value at position 0 of the call to 'DbSet<User>.Find' was of type 'string', which does not match the property type of 'int'.
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(Object[] keyValues)
+   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)
+   at ITServicesApp.Persistence.Repositories.GenericRepository`1.GetByIdAsync(Object id, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Persistence\Repositories\GenericRepository.cs:line 20
+   at ITServicesApp.Infrastructure.Services.UserService.GetMeAsync(CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Infrastructure\Services\UserService.cs:line 134
+   at ITServicesApp.API.Controllers.AuthController.Profile(CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.API\Controllers\AuthController.cs:line 51
+   at lambda_method161(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-11 14:13:28.130 +05:00 [ERR] HTTP GET /api/auth/profile responded 500 in 75527.6779 ms
+2025-09-11 14:13:31.743 +05:00 [INF] HTTP GET /api/booking/my => 404 in 2.274 ms
+2025-09-11 14:13:31.912 +05:00 [INF] HTTP GET /api/booking/my responded 404 in 191.4609 ms
+2025-09-11 14:13:59.314 +05:00 [INF] Server desktop-91hb9ir:18128:1c011d4c caught stopping signal...
+2025-09-11 14:13:59.408 +05:00 [INF] Application is shutting down...
+2025-09-11 14:13:59.848 +05:00 [INF] Server desktop-91hb9ir:18128:1c011d4c caught stopped signal...
+2025-09-11 14:14:00.205 +05:00 [INF] Server desktop-91hb9ir:18128:1c011d4c All dispatchers stopped
+2025-09-11 14:14:00.291 +05:00 [INF] Server desktop-91hb9ir:18128:1c011d4c successfully reported itself as stopped in 37.1318 ms
+2025-09-11 14:14:00.320 +05:00 [INF] Server desktop-91hb9ir:18128:1c011d4c has been stopped in total 1000.4479 ms
+2025-09-11 15:43:01.751 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-11 15:43:03.524 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-11 15:43:07.158 +05:00 [INF] Seeding complete.
+2025-09-11 15:43:08.863 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-11 15:43:09.142 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-11 15:43:09.149 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-11 15:43:09.170 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-11 15:43:09.205 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 15:43:09.252 +05:00 [INF] Hosting environment: Development
+2025-09-11 15:43:09.297 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-11 15:43:09.706 +05:00 [INF] Server desktop-91hb9ir:10128:620fd1a2 successfully announced in 500.1531 ms
+2025-09-11 15:43:09.753 +05:00 [INF] Server desktop-91hb9ir:10128:620fd1a2 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-11 15:43:10.338 +05:00 [INF] Server desktop-91hb9ir:10128:620fd1a2 all the dispatchers started
+2025-09-11 15:44:05.244 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-11 15:44:07.358 +05:00 [INF] HTTP GET /api/booking/my => 404 in 2119.749 ms
+2025-09-11 15:44:07.390 +05:00 [INF] HTTP GET /api/booking/my responded 404 in 2227.4796 ms
+2025-09-11 15:45:03.532 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-11 15:45:03.794 +05:00 [INF] HTTP GET /api/service/categories => 200 in 740.156 ms
+2025-09-11 15:45:03.808 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 764.2966 ms
+2025-09-11 15:45:15.059 +05:00 [INF] HTTP GET /api/service/categories => 200 in 172.791 ms
+2025-09-11 15:45:15.068 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 184.3995 ms
+2025-09-11 15:46:13.743 +05:00 [INF] HTTP GET /api/service/categories => 200 in 27.298 ms
+2025-09-11 15:46:13.751 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 39.9785 ms
+2025-09-11 16:14:58.587 +05:00 [INF] HTTP GET /api/service/categories => 200 in 6.991 ms
+2025-09-11 16:14:58.596 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 16.9004 ms
+2025-09-11 16:15:32.421 +05:00 [INF] HTTP POST /api/auth/login => 200 in 1007.639 ms
+2025-09-11 16:15:32.427 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 1014.2244 ms
+2025-09-11 16:15:32.633 +05:00 [INF] HTTP GET /api/auth/profile => 200 in 177.143 ms
+2025-09-11 16:15:32.639 +05:00 [INF] HTTP GET /api/auth/profile responded 200 in 184.1482 ms
+2025-09-11 16:15:33.580 +05:00 [INF] HTTP GET /api/booking/my => 404 in 1.407 ms
+2025-09-11 16:15:33.649 +05:00 [INF] HTTP GET /api/booking/my responded 404 in 173.4000 ms
+2025-09-11 16:35:23.305 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-11 16:35:23.401 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-11 16:35:23.590 +05:00 [INF] ListMyBookingsQuery took 181 ms
+2025-09-11 16:35:23.600 +05:00 [INF] Handled ListMyBookingsQuery
+2025-09-11 16:35:23.633 +05:00 [INF] HTTP GET /api/booking/me => 200 in 944.733 ms
+2025-09-11 16:35:23.645 +05:00 [INF] HTTP GET /api/booking/me responded 200 in 987.4692 ms
+2025-09-11 16:35:36.425 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-11 16:35:36.452 +05:00 [INF] ListMyBookingsQuery took 21 ms
+2025-09-11 16:35:36.456 +05:00 [INF] Handled ListMyBookingsQuery
+2025-09-11 16:35:36.460 +05:00 [INF] HTTP GET /api/booking/me => 200 in 45.976 ms
+2025-09-11 16:35:36.475 +05:00 [INF] HTTP GET /api/booking/me responded 200 in 62.6797 ms
+2025-09-11 16:35:49.463 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 33.9573 ms
+2025-09-11 16:35:49.537 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-11 16:35:50.039 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 2.3040 ms
+2025-09-11 16:35:50.041 +05:00 [INF] GetAvailableSlotsQuery took 467 ms
+2025-09-11 16:35:50.054 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-11 16:35:50.056 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-11 16:35:50.083 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 590.755 ms
+2025-09-11 16:35:50.092 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 602.5030 ms
+2025-09-11 16:35:50.119 +05:00 [INF] GetAvailableSlotsQuery took 56 ms
+2025-09-11 16:35:50.133 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-11 16:35:50.146 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 90.790 ms
+2025-09-11 16:35:50.157 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 102.0047 ms
+2025-09-11 16:37:29.052 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.3875 ms
+2025-09-11 16:37:29.070 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-11 16:37:29.183 +05:00 [INF] GetAvailableSlotsQuery took 108 ms
+2025-09-11 16:37:29.269 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-11 16:37:29.515 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 447.289 ms
+2025-09-11 16:37:29.528 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 460.5971 ms
+2025-09-11 16:37:29.563 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.4582 ms
+2025-09-11 16:37:29.575 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-11 16:37:29.585 +05:00 [INF] GetAvailableSlotsQuery took 7 ms
+2025-09-11 16:37:29.591 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-11 16:37:29.597 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 23.747 ms
+2025-09-11 16:37:29.603 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 30.0786 ms
+2025-09-11 16:37:32.490 +05:00 [INF] HTTP GET /api/service/categories => 200 in 24.498 ms
+2025-09-11 16:37:32.500 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 35.4260 ms
+2025-09-11 16:37:48.279 +05:00 [INF] HTTP GET /api/service/categories => 200 in 18.344 ms
+2025-09-11 16:37:48.286 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 34.7588 ms
+2025-09-11 16:38:07.397 +05:00 [INF] HTTP GET /api/service/categories => 200 in 11.519 ms
+2025-09-11 16:38:07.407 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 22.8547 ms
+2025-09-11 16:38:12.712 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.3739 ms
+2025-09-11 16:38:12.728 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-11 16:38:12.866 +05:00 [INF] GetAvailableSlotsQuery took 133 ms
+2025-09-11 16:38:13.464 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-11 16:38:13.485 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 1.1861 ms
+2025-09-11 16:38:13.494 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 767.459 ms
+2025-09-11 16:38:13.578 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-11 16:38:13.596 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 869.1530 ms
+2025-09-11 16:38:13.662 +05:00 [INF] GetAvailableSlotsQuery took 62 ms
+2025-09-11 16:38:13.678 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-11 16:38:13.684 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 106.224 ms
+2025-09-11 16:38:13.729 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 151.7885 ms
+2025-09-11 16:38:20.579 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-11 16:38:20.610 +05:00 [INF] ListMyBookingsQuery took 16 ms
+2025-09-11 16:38:20.615 +05:00 [INF] Handled ListMyBookingsQuery
+2025-09-11 16:38:20.623 +05:00 [INF] HTTP GET /api/booking/me => 200 in 45.261 ms
+2025-09-11 16:38:20.631 +05:00 [INF] HTTP GET /api/booking/me responded 200 in 57.1153 ms
+2025-09-11 16:38:25.894 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-11 16:38:25.905 +05:00 [INF] ListMyBookingsQuery took 6 ms
+2025-09-11 16:38:25.911 +05:00 [INF] Handled ListMyBookingsQuery
+2025-09-11 16:38:25.914 +05:00 [INF] HTTP GET /api/booking/me => 200 in 20.744 ms
+2025-09-11 16:38:25.964 +05:00 [INF] HTTP GET /api/booking/me responded 200 in 72.3746 ms
+2025-09-11 16:38:32.513 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.6735 ms
+2025-09-11 16:38:32.530 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-11 16:38:32.548 +05:00 [INF] GetAvailableSlotsQuery took 7 ms
+2025-09-11 16:38:32.560 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-11 16:38:32.572 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 42.215 ms
+2025-09-11 16:38:32.593 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 63.3803 ms
+2025-09-11 16:38:33.018 +05:00 [INF] HTTP OPTIONS /api/booking/available-slots responded 204 in 0.3254 ms
+2025-09-11 16:38:33.030 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-11 16:38:33.053 +05:00 [INF] GetAvailableSlotsQuery took 12 ms
+2025-09-11 16:38:33.061 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-11 16:38:33.064 +05:00 [INF] HTTP GET /api/booking/available-slots => 200 in 35.231 ms
+2025-09-11 16:38:33.072 +05:00 [INF] HTTP GET /api/booking/available-slots responded 200 in 43.4086 ms
+2025-09-11 16:38:54.371 +05:00 [INF] Server desktop-91hb9ir:10128:620fd1a2 caught stopping signal...
+2025-09-11 16:38:54.379 +05:00 [INF] Application is shutting down...
+2025-09-11 16:38:55.159 +05:00 [INF] Server desktop-91hb9ir:10128:620fd1a2 All dispatchers stopped
+2025-09-11 16:38:55.219 +05:00 [INF] Server desktop-91hb9ir:10128:620fd1a2 successfully reported itself as stopped in 11.8038 ms
+2025-09-11 16:38:55.222 +05:00 [INF] Server desktop-91hb9ir:10128:620fd1a2 has been stopped in total 845.3718 ms

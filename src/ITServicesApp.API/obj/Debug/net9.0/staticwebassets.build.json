@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VW4IUqeopOj4k2eFpaB3ZUUydeJf9TTNJbaUcICpyPI=",
+  "Source": "ITServicesApp.API",
+  "BasePath": "_content/ITServicesApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

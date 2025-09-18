@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\IT service app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|d:\\work\\it service app\\src\\itservicesapp.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|solutionrelative:src\\itservicesapp.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|d:\\work\\it service app\\src\\itservicesapp.application\\usecases\\bookings\\commands\\createbooking\\createbookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|solutionrelative:src\\itservicesapp.application\\usecases\\bookings\\commands\\createbooking\\createbookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9ED8C-4BA8-4995-AF7E-B60032EE4F41}|src\\ITServicesApp.Persistence\\ITServicesApp.Persistence.csproj|d:\\work\\it service app\\src\\itservicesapp.persistence\\repositories\\technicianslotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9ED8C-4BA8-4995-AF7E-B60032EE4F41}|src\\ITServicesApp.Persistence\\ITServicesApp.Persistence.csproj|solutionrelative:src\\itservicesapp.persistence\\repositories\\technicianslotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|d:\\work\\it service app\\src\\itservicesapp.application\\usecases\\bookings\\queries\\getavailableslots\\getavailableslotsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|solutionrelative:src\\itservicesapp.application\\usecases\\bookings\\queries\\getavailableslots\\getavailableslotsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|d:\\work\\it service app\\src\\itservicesapp.api\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|solutionrelative:src\\itservicesapp.api\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9ED8C-4BA8-4995-AF7E-B60032EE4F41}|src\\ITServicesApp.Persistence\\ITServicesApp.Persistence.csproj|d:\\work\\it service app\\src\\itservicesapp.persistence\\seeds\\applicationseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9ED8C-4BA8-4995-AF7E-B60032EE4F41}|src\\ITServicesApp.Persistence\\ITServicesApp.Persistence.csproj|solutionrelative:src\\itservicesapp.persistence\\seeds\\applicationseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|d:\\work\\it service app\\src\\itservicesapp.api\\configuration\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|solutionrelative:src\\itservicesapp.api\\configuration\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9ED8C-4BA8-4995-AF7E-B60032EE4F41}|src\\ITServicesApp.Persistence\\ITServicesApp.Persistence.csproj|d:\\work\\it service app\\src\\itservicesapp.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9ED8C-4BA8-4995-AF7E-B60032EE4F41}|src\\ITServicesApp.Persistence\\ITServicesApp.Persistence.csproj|solutionrelative:src\\itservicesapp.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|d:\\work\\it service app\\src\\itservicesapp.api\\configuration\\extensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|solutionrelative:src\\itservicesapp.api\\configuration\\extensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|d:\\work\\it service app\\src\\itservicesapp.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|solutionrelative:src\\itservicesapp.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|d:\\work\\it service app\\src\\itservicesapp.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|solutionrelative:src\\itservicesapp.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|d:\\work\\it service app\\src\\itservicesapp.infrastructure\\security\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|solutionrelative:src\\itservicesapp.infrastructure\\security\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|d:\\work\\it service app\\src\\itservicesapp.infrastructure\\services\\notifications\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|solutionrelative:src\\itservicesapp.infrastructure\\services\\notifications\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|d:\\work\\it service app\\src\\itservicesapp.application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|solutionrelative:src\\itservicesapp.application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|d:\\work\\it service app\\src\\itservicesapp.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|solutionrelative:src\\itservicesapp.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|d:\\work\\it service app\\src\\itservicesapp.application\\interfaces\\iadmindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|solutionrelative:src\\itservicesapp.application\\interfaces\\iadmindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|d:\\work\\it service app\\src\\itservicesapp.infrastructure\\services\\admindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F194C04-CA8A-43AF-8120-C44A195A5A91}|src\\ITServicesApp.Infrastructure\\ITServicesApp.Infrastructure.csproj|solutionrelative:src\\itservicesapp.infrastructure\\services\\admindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8D9ED8C-4BA8-4995-AF7E-B60032EE4F41}|src\\ITServicesApp.Persistence\\ITServicesApp.Persistence.csproj|d:\\work\\it service app\\src\\itservicesapp.persistence\\repositories\\bookingitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8D9ED8C-4BA8-4995-AF7E-B60032EE4F41}|src\\ITServicesApp.Persistence\\ITServicesApp.Persistence.csproj|solutionrelative:src\\itservicesapp.persistence\\repositories\\bookingitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|d:\\work\\it service app\\src\\itservicesapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|solutionrelative:src\\itservicesapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|d:\\work\\it service app\\src\\itservicesapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41521520-C8DD-4309-8632-F11890C74E7B}|src\\ITServicesApp.API\\ITServicesApp.API.csproj|solutionrelative:src\\itservicesapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|d:\\work\\it service app\\src\\itservicesapp.application\\mappingprofiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|solutionrelative:src\\itservicesapp.application\\mappingprofiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|d:\\work\\it service app\\src\\itservicesapp.application\\validators\\bookings\\bookingpipelinevalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DC14306-D415-4F3D-A2BC-0ECCBA2B29F6}|src\\ITServicesApp.Application\\ITServicesApp.Application.csproj|solutionrelative:src\\itservicesapp.application\\validators\\bookings\\bookingpipelinevalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateBookingCommandHandler.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\UseCases\\Bookings\\Commands\\CreateBooking\\CreateBookingCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Application\\UseCases\\Bookings\\Commands\\CreateBooking\\CreateBookingCommandHandler.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\UseCases\\Bookings\\Commands\\CreateBooking\\CreateBookingCommandHandler.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Application\\UseCases\\Bookings\\Commands\\CreateBooking\\CreateBookingCommandHandler.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAuwJYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T15:19:22.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.API\\Controllers\\ServiceController.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "src\\ITServicesApp.API\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAwAAADgMDMzMzMrwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:41:41.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAFgAAAAAuMzMzMzov2wAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:26:34.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Configuration\\Extensions\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.API\\Configuration\\Extensions\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Configuration\\Extensions\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "src\\ITServicesApp.API\\Configuration\\Extensions\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAA4AAAAAIGZmZmbqvxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T12:16:00.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Configuration\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.API\\Configuration\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Configuration\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\ITServicesApp.API\\Configuration\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAM0AAAAAgGZmZuYowHQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:48:47.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordResetService.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Security\\PasswordResetService.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Infrastructure\\Security\\PasswordResetService.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Security\\PasswordResetService.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Infrastructure\\Security\\PasswordResetService.cs",
+              "ViewState": "AgIAAAsAAADAMTMzMzMrwBEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:47:55.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Services\\Notifications\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Infrastructure\\Services\\Notifications\\NotificationHub.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Services\\Notifications\\NotificationHub.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Infrastructure\\Services\\Notifications\\NotificationHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:05:36.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Application\\Interfaces\\IEmailService.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Application\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:02:51.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Infrastructure\\Services\\EmailService.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Services\\EmailService.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Infrastructure\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:02:49.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAdminDashboardService.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\Interfaces\\IAdminDashboardService.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Application\\Interfaces\\IAdminDashboardService.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\Interfaces\\IAdminDashboardService.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Application\\Interfaces\\IAdminDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:02:42.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminDashboardService.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Services\\AdminDashboardService.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Infrastructure\\Services\\AdminDashboardService.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Services\\AdminDashboardService.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Infrastructure\\Services\\AdminDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:02:31.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:02:12.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AgIAABkAAAAAZmZmZmYvwBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:01:58.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookingItemRepository.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Persistence\\Repositories\\BookingItemRepository.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Persistence\\Repositories\\BookingItemRepository.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Persistence\\Repositories\\BookingItemRepository.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Persistence\\Repositories\\BookingItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:01:11.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.API\\Program.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Program.cs",
+              "RelativeToolTip": "src\\ITServicesApp.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T11:00:32.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.API\\appsettings.json",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\appsettings.json",
+              "RelativeToolTip": "src\\ITServicesApp.API\\appsettings.json",
+              "ViewState": "AgIAABkAAAAgMzMzMzMnwB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-18T09:14:44.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\MappingProfiles\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Application\\MappingProfiles\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\MappingProfiles\\AutoMapperProfile.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Application\\MappingProfiles\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAGgAAAAAUDMzMzP3v3IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T20:07:35.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookingPipelineValidators.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\Validators\\Bookings\\BookingPipelineValidators.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Application\\Validators\\Bookings\\BookingPipelineValidators.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\Validators\\Bookings\\BookingPipelineValidators.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Application\\Validators\\Bookings\\BookingPipelineValidators.cs",
+              "ViewState": "AgIAACkAAACAyszMzMwYwDAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T14:53:42.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAvailableSlotsQueryHandler.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\UseCases\\Bookings\\Queries\\GetAvailableSlots\\GetAvailableSlotsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Application\\UseCases\\Bookings\\Queries\\GetAvailableSlots\\GetAvailableSlotsQueryHandler.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Application\\UseCases\\Bookings\\Queries\\GetAvailableSlots\\GetAvailableSlotsQueryHandler.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Application\\UseCases\\Bookings\\Queries\\GetAvailableSlots\\GetAvailableSlotsQueryHandler.cs",
+              "ViewState": "AgIAABMAAAAI+////38lwBoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:59:17.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.API\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.API\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "src\\ITServicesApp.API\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAGcAAAAg+P///x8xwFAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:59:17.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TechnicianSlotRepository.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Persistence\\Repositories\\TechnicianSlotRepository.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Persistence\\Repositories\\TechnicianSlotRepository.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Persistence\\Repositories\\TechnicianSlotRepository.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Persistence\\Repositories\\TechnicianSlotRepository.cs",
+              "ViewState": "AgIAAAkAAACAEzMzMzP7vw0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:59:17.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationSeeder.cs",
+              "DocumentMoniker": "D:\\Work\\IT service app\\src\\ITServicesApp.Persistence\\Seeds\\ApplicationSeeder.cs",
+              "RelativeDocumentMoniker": "src\\ITServicesApp.Persistence\\Seeds\\ApplicationSeeder.cs",
+              "ToolTip": "D:\\Work\\IT service app\\src\\ITServicesApp.Persistence\\Seeds\\ApplicationSeeder.cs",
+              "RelativeToolTip": "src\\ITServicesApp.Persistence\\Seeds\\ApplicationSeeder.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T17:59:05.354Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

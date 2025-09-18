@@ -1,0 +1,919 @@
+2025-09-18 16:52:45.321 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 16:52:50.394 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 16:52:54.205 +05:00 [WRN] Entity 'ServiceIssue' has a global query filter defined and is the required end of a relationship with the entity 'TechnicianExpertise'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-09-18 16:52:56.092 +05:00 [INF] Seeding complete.
+2025-09-18 16:52:56.992 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 16:52:57.293 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 16:52:57.311 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 16:52:57.314 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 16:52:57.366 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 16:52:57.375 +05:00 [INF] Hosting environment: Development
+2025-09-18 16:52:57.393 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 16:52:58.219 +05:00 [INF] Server desktop-91hb9ir:12924:7d000e13 successfully announced in 850.9587 ms
+2025-09-18 16:52:58.242 +05:00 [INF] Server desktop-91hb9ir:12924:7d000e13 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 16:52:58.349 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-18 16:52:58.684 +05:00 [INF] Server desktop-91hb9ir:12924:7d000e13 all the dispatchers started
+2025-09-18 16:54:25.947 +05:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 101.4848 ms
+2025-09-18 16:54:26.111 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 284.5372 ms
+2025-09-18 16:56:47.207 +05:00 [ERR] HTTP GET /api/Auth/profile responded 500 in 95.2783 ms
+System.InvalidOperationException: No service for type 'ITServicesApp.API.Middlewares.ErrorHandlingMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-09-18 16:56:47.316 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'ITServicesApp.API.Middlewares.ErrorHandlingMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-18 16:56:48.342 +05:00 [ERR] HTTP GET /api/Auth/profile responded 500 in 22.2482 ms
+System.InvalidOperationException: No service for type 'ITServicesApp.API.Middlewares.ErrorHandlingMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-09-18 16:56:48.465 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'ITServicesApp.API.Middlewares.ErrorHandlingMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-18 17:12:32.398 +05:00 [ERR] HTTP POST /api/auth/login responded 500 in 10.0967 ms
+System.InvalidOperationException: No service for type 'ITServicesApp.API.Middlewares.ErrorHandlingMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-09-18 17:12:32.419 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'ITServicesApp.API.Middlewares.ErrorHandlingMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-18 17:28:05.822 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 17:28:07.642 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 17:28:10.121 +05:00 [WRN] Entity 'ServiceIssue' has a global query filter defined and is the required end of a relationship with the entity 'TechnicianExpertise'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-09-18 17:28:11.624 +05:00 [INF] Seeding complete.
+2025-09-18 17:28:12.119 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 17:28:12.318 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 17:28:12.322 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 17:28:12.326 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 17:28:12.363 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 17:28:12.368 +05:00 [INF] Hosting environment: Development
+2025-09-18 17:28:12.373 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 17:28:12.622 +05:00 [INF] Server desktop-91hb9ir:24168:54c2a6fb successfully announced in 256.8761 ms
+2025-09-18 17:28:12.665 +05:00 [INF] Server desktop-91hb9ir:24168:54c2a6fb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 17:28:12.784 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-18 17:28:13.398 +05:00 [INF] Server desktop-91hb9ir:24168:54c2a6fb all the dispatchers started
+2025-09-18 17:28:53.247 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 319.3656 ms
+2025-09-18 17:28:59.545 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-18 17:29:02.332 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 17:29:03.181 +05:00 [INF] HTTP POST /api/auth/login => 200 in 3641.234 ms
+2025-09-18 17:29:03.193 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 3728.8555 ms
+2025-09-18 18:20:32.892 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 18:20:34.155 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 18:20:36.549 +05:00 [WRN] Entity 'ServiceIssue' has a global query filter defined and is the required end of a relationship with the entity 'TechnicianExpertise'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-09-18 18:20:38.021 +05:00 [INF] Seeding complete.
+2025-09-18 18:20:38.597 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 18:20:38.863 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 18:20:38.904 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 18:20:38.907 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 18:20:38.996 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 18:20:39.278 +05:00 [INF] Hosting environment: Development
+2025-09-18 18:20:39.282 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 18:20:39.385 +05:00 [INF] Server desktop-91hb9ir:18796:eec466ee successfully announced in 386.8842 ms
+2025-09-18 18:20:39.429 +05:00 [INF] Server desktop-91hb9ir:18796:eec466ee is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 18:20:39.481 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-18 18:20:39.900 +05:00 [INF] Server desktop-91hb9ir:18796:eec466ee all the dispatchers started
+2025-09-18 18:24:04.353 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-18 18:24:04.896 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 18:24:05.560 +05:00 [INF] HTTP POST /api/auth/login => 200 in 1213.040 ms
+2025-09-18 18:24:05.605 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 1313.5021 ms
+2025-09-18 18:24:13.135 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 18:24:13.163 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-18 18:24:13.610 +05:00 [ERR] Failed executing DbCommand (35ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Address], [b].[AddressId], [b].[AddressLine1], [b].[AddressLine2], [b].[City], [b].[ClientRequestId], [b].[CompletedAtUtc], [b].[Country], [b].[CreatedAtUtc], [b].[CreatedBy], [b].[CustomerEmail], [b].[CustomerFullName], [b].[CustomerPhone], [b].[DeletedAtUtc], [b].[DeletedBy], [b].[EstimatedTotal], [b].[FinalTotal], [b].[IsDeleted], [b].[ModifiedAtUtc], [b].[ModifiedBy], [b].[Notes], [b].[PostalCode], [b].[PreferredPaymentMethod], [b].[ReminderJobId], [b].[RequiresManualConfirmation], [b].[ScheduledEndUtc], [b].[ScheduledStartUtc], [b].[ServiceCategoryId], [b].[ServiceIssueId], [b].[StartedAtUtc], [b].[State], [b].[Status], [b].[TechnicianConfirmedAtUtc], [b].[TechnicianEnRouteAtUtc], [b].[TechnicianId], [b].[UserId], [p0].[Id], [b1].[Id], [b1].[BookingId], [b1].[CreatedAtUtc], [b1].[CreatedBy], [b1].[DeletedAtUtc], [b1].[DeletedBy], [b1].[IsDeleted], [b1].[LineTotal], [b1].[ModifiedAtUtc], [b1].[ModifiedBy], [b1].[Notes], [b1].[Quantity], [b1].[ServiceDescription], [b1].[ServiceIssueId], [b1].[ServiceName], [b1].[UnitPrice], [p0].[Amount], [p0].[BookingId], [p0].[CreatedAtUtc], [p0].[CreatedBy], [p0].[Currency], [p0].[DeletedAtUtc], [p0].[DeletedBy], [p0].[IsDeleted], [p0].[LastWebhookEventId], [p0].[Method], [p0].[ModifiedAtUtc], [p0].[ModifiedBy], [p0].[ProviderChargeId], [p0].[ProviderPaymentId], [p0].[Status]
+FROM [Bookings] AS [b]
+LEFT JOIN (
+    SELECT [p].[Id], [p].[Amount], [p].[BookingId], [p].[CreatedAtUtc], [p].[CreatedBy], [p].[Currency], [p].[DeletedAtUtc], [p].[DeletedBy], [p].[IsDeleted], [p].[LastWebhookEventId], [p].[Method], [p].[ModifiedAtUtc], [p].[ModifiedBy], [p].[ProviderChargeId], [p].[ProviderPaymentId], [p].[Status]
+    FROM [Payments] AS [p]
+    WHERE [p].[IsDeleted] = CAST(0 AS bit)
+) AS [p0] ON [b].[Id] = [p0].[BookingId]
+LEFT JOIN (
+    SELECT [b0].[Id], [b0].[BookingId], [b0].[CreatedAtUtc], [b0].[CreatedBy], [b0].[DeletedAtUtc], [b0].[DeletedBy], [b0].[IsDeleted], [b0].[LineTotal], [b0].[ModifiedAtUtc], [b0].[ModifiedBy], [b0].[Notes], [b0].[Quantity], [b0].[ServiceDescription], [b0].[ServiceIssueId], [b0].[ServiceName], [b0].[UnitPrice]
+    FROM [BookingItems] AS [b0]
+    WHERE [b0].[IsDeleted] = CAST(0 AS bit)
+) AS [b1] ON [b].[Id] = [b1].[BookingId]
+WHERE [b].[IsDeleted] = CAST(0 AS bit) AND [b].[UserId] = @__userId_0
+ORDER BY [b].[ScheduledStartUtc] DESC, [b].[Id], [p0].[Id]
+2025-09-18 18:24:13.715 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ITServicesApp.Persistence.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'BookingItems'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0975daae-af74-4751-8871-5eeb01272af7
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'BookingItems'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0975daae-af74-4751-8871-5eeb01272af7
+Error Number:208,State:1,Class:16
+2025-09-18 18:38:45.607 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 18:38:48.255 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 18:38:50.740 +05:00 [WRN] Entity 'Technician' has a global query filter defined and is the required end of a relationship with the entity 'TechnicianExpertise'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-09-18 18:38:52.171 +05:00 [INF] Seeding complete.
+2025-09-18 18:38:52.703 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 18:38:52.928 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 18:38:52.959 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 18:38:52.962 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 18:38:53.091 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 18:38:53.105 +05:00 [INF] Hosting environment: Development
+2025-09-18 18:38:53.172 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 18:38:53.458 +05:00 [INF] Server desktop-91hb9ir:14008:cf29b5df successfully announced in 393.6789 ms
+2025-09-18 18:38:53.498 +05:00 [INF] Server desktop-91hb9ir:14008:cf29b5df is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 18:38:53.580 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-18 18:38:53.920 +05:00 [INF] Server desktop-91hb9ir:14008:cf29b5df all the dispatchers started
+2025-09-18 18:39:48.309 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 254.1494 ms
+2025-09-18 18:40:08.125 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-18 18:40:10.737 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 18:40:12.005 +05:00 [INF] HTTP GET /api/Auth/profile => 200 in 3897.202 ms
+2025-09-18 18:40:12.207 +05:00 [INF] HTTP GET /api/Auth/profile responded 200 in 4852.3494 ms
+2025-09-18 18:40:13.871 +05:00 [INF] HTTP GET /api/Auth/profile => 200 in 318.046 ms
+2025-09-18 18:40:13.902 +05:00 [INF] HTTP GET /api/Auth/profile responded 200 in 365.2552 ms
+2025-09-18 18:40:42.976 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBP:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:40:43.195 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 1907.5832 ms
+2025-09-18 18:40:46.254 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBP:00000002
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:40:46.827 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 1059.9933 ms
+2025-09-18 18:40:50.150 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBP:00000003
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:40:50.906 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 1201.9079 ms
+2025-09-18 18:40:59.295 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBQ:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:40:59.633 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 822.6090 ms
+2025-09-18 18:41:06.559 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBR:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:41:06.676 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 905.2997 ms
+2025-09-18 18:41:19.933 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBS:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:41:20.147 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 548.5763 ms
+2025-09-18 18:41:23.861 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBS:00000002
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:41:23.990 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 473.6265 ms
+2025-09-18 18:41:29.370 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBT:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:41:29.523 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 399.8328 ms
+2025-09-18 18:41:52.877 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBU:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:41:53.105 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 560.4745 ms
+2025-09-18 18:41:55.367 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBU:00000002
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:41:55.515 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 510.3492 ms
+2025-09-18 18:42:15.925 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHBV:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:42:16.054 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 775.7022 ms
+2025-09-18 18:42:28.402 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHC0:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:42:28.599 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 529.3337 ms
+2025-09-18 18:42:41.723 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHC1:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:42:42.215 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 727.0905 ms
+2025-09-18 18:42:48.673 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHC2:00000001
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:42:49.710 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 1424.3528 ms
+2025-09-18 18:42:53.926 +05:00 [ERR] Unhandled exception. TraceId=0HNFMN3AMFHC2:00000002
+System.InvalidOperationException: Unable to resolve service for type 'ITServicesApp.Application.Interfaces.IServiceCatalogService' while attempting to activate 'ITServicesApp.API.Controllers.ServiceController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method165(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 18:42:56.124 +05:00 [ERR] HTTP GET /api/Service/categories responded 500 in 3603.4803 ms
+2025-09-18 18:42:58.176 +05:00 [INF] HTTP GET /api/Auth/profile => 200 in 36.500 ms
+2025-09-18 18:42:58.192 +05:00 [INF] HTTP GET /api/Auth/profile responded 200 in 54.2926 ms
+2025-09-18 19:19:25.319 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 19:19:27.086 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 19:19:29.645 +05:00 [WRN] Entity 'Technician' has a global query filter defined and is the required end of a relationship with the entity 'TechnicianExpertise'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-09-18 19:19:32.290 +05:00 [INF] Seeding complete.
+2025-09-18 19:19:32.761 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 19:19:33.048 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 19:19:33.051 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 19:19:33.166 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 19:19:33.213 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 19:19:33.252 +05:00 [INF] Hosting environment: Development
+2025-09-18 19:19:33.267 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 19:19:33.585 +05:00 [INF] Server desktop-91hb9ir:24032:2a42925a successfully announced in 371.5044 ms
+2025-09-18 19:19:33.606 +05:00 [INF] Server desktop-91hb9ir:24032:2a42925a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 19:19:33.686 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-18 19:19:34.135 +05:00 [INF] Server desktop-91hb9ir:24032:2a42925a all the dispatchers started
+2025-09-18 19:23:53.345 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 19:23:54.635 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 19:23:56.490 +05:00 [WRN] Entity 'Technician' has a global query filter defined and is the required end of a relationship with the entity 'TechnicianExpertise'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2025-09-18 19:23:58.187 +05:00 [INF] Seeding complete.
+2025-09-18 19:23:58.829 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 19:23:59.205 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 19:23:59.454 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 19:23:59.457 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 19:23:59.648 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 19:23:59.654 +05:00 [INF] Hosting environment: Development
+2025-09-18 19:24:00.221 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 19:24:00.226 +05:00 [INF] Server desktop-91hb9ir:13264:ca06efd5 successfully announced in 541.0176 ms
+2025-09-18 19:24:00.306 +05:00 [INF] Server desktop-91hb9ir:13264:ca06efd5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 19:24:01.405 +05:00 [INF] Server desktop-91hb9ir:13264:ca06efd5 all the dispatchers started
+2025-09-18 19:25:48.878 +05:00 [INF] Server desktop-91hb9ir:13264:ca06efd5 caught stopping signal...
+2025-09-18 19:35:12.810 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 19:35:14.255 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 19:35:18.679 +05:00 [INF] Seeding complete.
+2025-09-18 19:35:19.246 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 19:35:19.623 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 19:35:19.803 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 19:35:19.806 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 19:35:19.843 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 19:35:19.931 +05:00 [INF] Hosting environment: Development
+2025-09-18 19:35:19.938 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 19:35:20.361 +05:00 [INF] Server desktop-91hb9ir:23512:4dd78fc8 successfully announced in 516.0391 ms
+2025-09-18 19:35:20.408 +05:00 [INF] Server desktop-91hb9ir:23512:4dd78fc8 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 19:35:20.655 +05:00 [INF] 2 servers were removed due to timeout
+2025-09-18 19:35:21.093 +05:00 [INF] Server desktop-91hb9ir:23512:4dd78fc8 all the dispatchers started
+2025-09-18 19:38:01.644 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 276.2263 ms
+2025-09-18 19:38:09.803 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-18 19:38:09.956 +05:00 [INF] HTTP GET /api/Auth/profile => 401 in 157.097 ms
+2025-09-18 19:38:09.963 +05:00 [INF] HTTP GET /api/Auth/profile responded 401 in 242.0612 ms
+2025-09-18 19:38:28.006 +05:00 [INF] HTTP GET /api/Auth/profile => 401 in 5.429 ms
+2025-09-18 19:38:28.013 +05:00 [INF] HTTP GET /api/Auth/profile responded 401 in 17.3351 ms
+2025-09-18 19:38:56.280 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 19:38:56.939 +05:00 [INF] HTTP POST /api/auth/login => 200 in 1375.994 ms
+2025-09-18 19:38:56.948 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 1391.2663 ms
+2025-09-18 19:38:58.759 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 19:38:58.815 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-18 19:39:01.386 +05:00 [INF] ListMyBookingsQuery took 2564 ms
+2025-09-18 19:39:01.419 +05:00 [INF] Handled ListMyBookingsQuery
+2025-09-18 19:39:01.511 +05:00 [INF] HTTP GET /api/Booking/me => 200 in 2887.888 ms
+2025-09-18 19:39:01.888 +05:00 [INF] HTTP GET /api/Booking/me responded 200 in 3272.8199 ms
+2025-09-18 19:39:28.271 +05:00 [INF] Handling ListMyBookingsQuery
+2025-09-18 19:39:28.393 +05:00 [INF] ListMyBookingsQuery took 104 ms
+2025-09-18 19:39:29.367 +05:00 [INF] HTTP GET /api/Auth/profile => 200 in 758.885 ms
+2025-09-18 19:39:29.395 +05:00 [INF] Handled ListMyBookingsQuery
+2025-09-18 19:39:29.403 +05:00 [INF] HTTP GET /api/Auth/profile responded 200 in 813.3700 ms
+2025-09-18 19:39:29.415 +05:00 [INF] HTTP GET /api/Booking/me => 200 in 1147.279 ms
+2025-09-18 19:39:29.430 +05:00 [INF] HTTP GET /api/Booking/me responded 200 in 1165.2107 ms
+2025-09-18 19:39:42.183 +05:00 [INF] HTTP GET /api/Service/categories => 200 in 5650.471 ms
+2025-09-18 19:39:42.206 +05:00 [INF] HTTP GET /api/Service/categories responded 200 in 5673.0816 ms
+2025-09-18 19:39:50.406 +05:00 [INF] HTTP GET /api/Service/categories => 200 in 6208.123 ms
+2025-09-18 19:39:50.436 +05:00 [INF] HTTP GET /api/Service/categories responded 200 in 6286.1068 ms
+2025-09-18 19:39:53.839 +05:00 [INF] HTTP GET /api/Service/categories => 200 in 29.586 ms
+2025-09-18 19:39:53.907 +05:00 [INF] HTTP GET /api/Service/categories responded 200 in 111.4171 ms
+2025-09-18 19:39:55.664 +05:00 [INF] HTTP GET /api/Service/categories/1/issues => 200 in 271.010 ms
+2025-09-18 19:39:55.677 +05:00 [INF] HTTP GET /api/Service/categories/1/issues responded 200 in 356.7409 ms
+2025-09-18 19:40:15.155 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:41:12.145 +05:00 [INF] GetAvailableSlotsQuery took 56977 ms
+2025-09-18 19:41:12.150 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:41:12.169 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 57041.499 ms
+2025-09-18 19:41:12.177 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 57096.3729 ms
+2025-09-18 19:41:13.910 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:41:38.596 +05:00 [INF] GetAvailableSlotsQuery took 24647 ms
+2025-09-18 19:41:38.611 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:41:38.622 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 24714.262 ms
+2025-09-18 19:41:38.637 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 24744.7537 ms
+2025-09-18 19:41:40.571 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:41:56.450 +05:00 [INF] GetAvailableSlotsQuery took 15874 ms
+2025-09-18 19:41:56.529 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:41:56.543 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 15972.790 ms
+2025-09-18 19:41:56.585 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 16016.4461 ms
+2025-09-18 19:41:58.639 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:41:59.482 +05:00 [INF] GetAvailableSlotsQuery took 172 ms
+2025-09-18 19:41:59.508 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:41:59.563 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 931.299 ms
+2025-09-18 19:41:59.610 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 998.9309 ms
+2025-09-18 19:42:03.476 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:42:04.078 +05:00 [INF] GetAvailableSlotsQuery took 193 ms
+2025-09-18 19:42:04.424 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:42:04.448 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 973.139 ms
+2025-09-18 19:42:05.923 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 2478.3783 ms
+2025-09-18 19:42:13.184 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:42:14.080 +05:00 [INF] GetAvailableSlotsQuery took 836 ms
+2025-09-18 19:42:14.092 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:42:14.097 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 912.706 ms
+2025-09-18 19:42:14.111 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 966.2565 ms
+2025-09-18 19:46:15.649 +05:00 [INF] Execution CountersAggregator recovered from the Faulted state after 00:05:03.5901760 and is in the Running state now
+2025-09-18 19:46:39.036 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:46:39.487 +05:00 [INF] GetAvailableSlotsQuery took 445 ms
+2025-09-18 19:46:39.497 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:46:39.503 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 473.952 ms
+2025-09-18 19:46:39.515 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 497.8827 ms
+2025-09-18 19:47:03.505 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:47:04.011 +05:00 [INF] GetAvailableSlotsQuery took 498 ms
+2025-09-18 19:47:04.296 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:47:05.516 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 2015.380 ms
+2025-09-18 19:47:05.524 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 2041.2169 ms
+2025-09-18 19:47:08.306 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:47:08.681 +05:00 [INF] GetAvailableSlotsQuery took 363 ms
+2025-09-18 19:47:08.834 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:47:08.842 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 536.787 ms
+2025-09-18 19:47:08.874 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 570.5045 ms
+2025-09-18 19:47:32.352 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:47:32.425 +05:00 [INF] GetAvailableSlotsQuery took 64 ms
+2025-09-18 19:47:32.556 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:47:32.560 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 209.194 ms
+2025-09-18 19:47:32.566 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 225.5951 ms
+2025-09-18 19:47:54.415 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:47:54.443 +05:00 [INF] GetAvailableSlotsQuery took 18 ms
+2025-09-18 19:47:54.462 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:47:54.474 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 62.612 ms
+2025-09-18 19:47:54.503 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 100.6532 ms
+2025-09-18 19:48:35.151 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:48:35.438 +05:00 [INF] GetAvailableSlotsQuery took 260 ms
+2025-09-18 19:48:35.488 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:48:35.506 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 357.351 ms
+2025-09-18 19:48:35.620 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 475.1895 ms
+2025-09-18 19:49:48.764 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:49:48.874 +05:00 [INF] GetAvailableSlotsQuery took 39 ms
+2025-09-18 19:49:48.885 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:49:48.889 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 189.371 ms
+2025-09-18 19:49:48.960 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 261.5911 ms
+2025-09-18 19:50:36.258 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 19:50:44.182 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 19:50:48.800 +05:00 [INF] Seeding complete.
+2025-09-18 19:50:49.302 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 19:50:49.543 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 19:50:49.557 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 19:50:49.559 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 19:50:49.653 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 19:50:49.655 +05:00 [INF] Hosting environment: Development
+2025-09-18 19:50:49.658 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 19:50:49.917 +05:00 [INF] Server desktop-91hb9ir:4456:20571032 successfully announced in 261.9431 ms
+2025-09-18 19:50:49.963 +05:00 [INF] Server desktop-91hb9ir:4456:20571032 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 19:50:50.613 +05:00 [INF] Server desktop-91hb9ir:4456:20571032 all the dispatchers started
+2025-09-18 19:54:56.822 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-18 19:54:57.620 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 19:54:59.169 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 19:54:59.999 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 19:56:22.648 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-18 19:56:25.300 +05:00 [INF] HTTP GET /api/Service/categories => 200 in 2682.959 ms
+2025-09-18 19:56:25.362 +05:00 [INF] GetAvailableSlotsQuery took 86139 ms
+2025-09-18 19:56:25.391 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 19:56:25.412 +05:00 [INF] HTTP GET /api/Service/categories responded 200 in 2789.1428 ms
+2025-09-18 19:56:25.442 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 88625.752 ms
+2025-09-18 19:56:25.449 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 89008.9698 ms
+2025-09-18 19:56:25.502 +05:00 [INF] HTTP GET /api/Auth/profile => 200 in 2885.520 ms
+2025-09-18 19:56:25.519 +05:00 [INF] HTTP GET /api/Auth/profile responded 200 in 2904.6274 ms
+2025-09-18 19:56:27.127 +05:00 [INF] HTTP GET /api/Service/categories => 200 in 19.169 ms
+2025-09-18 19:56:27.196 +05:00 [INF] HTTP GET /api/Service/categories responded 200 in 93.2145 ms
+2025-09-18 19:56:29.093 +05:00 [INF] HTTP GET /api/Service/categories/1/issues => 200 in 87.603 ms
+2025-09-18 19:56:29.109 +05:00 [INF] HTTP GET /api/Service/categories/1/issues responded 200 in 105.8651 ms
+2025-09-18 19:56:43.120 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 20:13:42.717 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 20:18:16.941 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-18 20:18:18.346 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-18 20:18:22.551 +05:00 [INF] Seeding complete.
+2025-09-18 20:18:23.384 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-18 20:18:23.811 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-18 20:18:23.918 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-18 20:18:23.921 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-18 20:18:23.962 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-18 20:18:23.978 +05:00 [INF] Hosting environment: Development
+2025-09-18 20:18:23.981 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-18 20:18:24.522 +05:00 [INF] Server desktop-91hb9ir:16132:4152cfbf successfully announced in 558.2991 ms
+2025-09-18 20:18:24.560 +05:00 [INF] Server desktop-91hb9ir:16132:4152cfbf is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-18 20:18:25.437 +05:00 [INF] Server desktop-91hb9ir:16132:4152cfbf all the dispatchers started
+2025-09-18 20:18:35.864 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-18 20:18:36.155 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 20:18:36.284 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 20:18:36.775 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-18 20:18:53.580 +05:00 [INF] GetAvailableSlotsQuery took 17288 ms
+2025-09-18 20:18:53.605 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 20:18:53.781 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 17922.560 ms
+2025-09-18 20:18:53.914 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 18207.2559 ms
+2025-09-18 20:18:57.465 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 20:18:57.724 +05:00 [INF] GetAvailableSlotsQuery took 224 ms
+2025-09-18 20:18:57.739 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 20:18:57.761 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 300.991 ms
+2025-09-18 20:18:57.794 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 346.1700 ms
+2025-09-18 20:19:05.121 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-18 20:19:05.542 +05:00 [INF] GetAvailableSlotsQuery took 93 ms
+2025-09-18 20:19:05.742 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-18 20:19:05.760 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 648.635 ms
+2025-09-18 20:19:05.792 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 703.5227 ms
+2025-09-18 20:19:18.176 +05:00 [INF] Handling CreateBookingCommand
+2025-09-18 20:19:19.445 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'ITServicesApp.Persistence.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Users_UserId". The conflict occurred in database "ITServicesAppDb", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:a1f8b0b0-c795-42cb-a085-fa10ea5febe9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Users_UserId". The conflict occurred in database "ITServicesAppDb", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:a1f8b0b0-c795-42cb-a085-fa10ea5febe9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-09-18 20:20:36.479 +05:00 [ERR] Unhandled exception. TraceId=0HNFMOQHG74EH:00000001
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Users_UserId". The conflict occurred in database "ITServicesAppDb", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:a1f8b0b0-c795-42cb-a085-fa10ea5febe9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ITServicesApp.Application.UseCases.Bookings.Commands.CreateBooking.CreateBookingCommandHandler.Handle(CreateBookingCommand request, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Application\UseCases\Bookings\Commands\CreateBooking\CreateBookingCommandHandler.cs:line 140
+   at ITServicesApp.Application.Behaviors.AuditingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Application\Behaviors\AuditingBehavior.cs:line 14
+   at ITServicesApp.Application.Behaviors.PerformanceBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Application\Behaviors\PerformanceBehavior.cs:line 15
+   at ITServicesApp.Application.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Application\Behaviors\LoggingBehavior.cs:line 14
+   at ITServicesApp.Application.Behaviors.AuthorizationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Application\Behaviors\AuthorizationBehavior.cs:line 9
+   at ITServicesApp.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.Application\Behaviors\ValidationBehavior.cs:line 21
+   at ITServicesApp.API.Controllers.BookingController.Create(CreateBookingDto dto, CancellationToken ct) in D:\Work\IT service app\src\ITServicesApp.API\Controllers\BookingController.cs:line 48
+   at lambda_method131(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ITServicesApp.API.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\RequestLoggingMiddleware.cs:line 13
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.CorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\CorrelationIdMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at ITServicesApp.API.Middlewares.ErrorHandlingMiddleware.InvokeAsync(HttpContext ctx, RequestDelegate next) in D:\Work\IT service app\src\ITServicesApp.API\Middlewares\ErrorHandlingMiddleware.cs:line 13
+2025-09-18 20:20:36.794 +05:00 [ERR] HTTP POST /api/Booking responded 500 in 78748.0307 ms
+2025-09-18 20:20:51.809 +05:00 [INF] Handling CreateBookingCommand
+2025-09-18 20:23:31.633 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-18 20:23:31.699 +05:00 [ERR] An exception occurred in the database while saving changes for context type 'ITServicesApp.Persistence.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Users_UserId". The conflict occurred in database "ITServicesAppDb", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:6da354f8-0f75-427f-ae06-4cf25785f349
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Bookings_Users_UserId". The conflict occurred in database "ITServicesAppDb", table "dbo.Users", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:6da354f8-0f75-427f-ae06-4cf25785f349
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)

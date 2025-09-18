@@ -1,0 +1,63 @@
+2025-09-17 00:01:24.471 +05:00 [INF] HTTP GET /api/Booking/available-slots => 400 in 1.289 ms
+2025-09-17 00:01:25.104 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 400 in 665.8850 ms
+2025-09-17 00:01:34.300 +05:00 [INF] HTTP GET /api/Booking/available-slots => 400 in 0.545 ms
+2025-09-17 00:01:35.279 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 400 in 1057.4662 ms
+2025-09-17 00:01:39.714 +05:00 [INF] HTTP GET /api/Booking/available-slots => 400 in 1.006 ms
+2025-09-17 00:01:40.241 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 400 in 536.9175 ms
+2025-09-17 00:01:44.010 +05:00 [INF] HTTP GET /api/Booking/available-slots => 400 in 22.562 ms
+2025-09-17 00:01:44.068 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 400 in 81.6213 ms
+2025-09-17 00:01:49.175 +05:00 [INF] HTTP GET /api/Booking/available-slots => 400 in 0.447 ms
+2025-09-17 00:01:49.405 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 400 in 262.1279 ms
+2025-09-17 00:03:27.226 +05:00 [INF] HTTP GET /api/Booking/available-slots => 400 in 1.050 ms
+2025-09-17 00:03:27.348 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 400 in 137.2279 ms
+2025-09-17 00:03:34.923 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-17 00:03:54.674 +05:00 [INF] GetAvailableSlotsQuery took 19712 ms
+2025-09-17 00:03:54.822 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-17 00:03:54.886 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 23486.052 ms
+2025-09-17 00:03:54.915 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 23534.2119 ms
+2025-09-17 00:18:46.041 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-17 00:18:47.393 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-17 00:18:49.876 +05:00 [INF] Seeding complete.
+2025-09-17 00:18:51.102 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-17 00:18:51.485 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-17 00:18:51.497 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-17 00:18:51.516 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-17 00:18:51.583 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-17 00:18:51.588 +05:00 [INF] Hosting environment: Development
+2025-09-17 00:18:51.593 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-17 00:18:51.786 +05:00 [INF] Server desktop-91hb9ir:14340:8d51a7e0 successfully announced in 199.5772 ms
+2025-09-17 00:18:51.797 +05:00 [INF] Server desktop-91hb9ir:14340:8d51a7e0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-17 00:18:52.162 +05:00 [INF] Server desktop-91hb9ir:14340:8d51a7e0 all the dispatchers started
+2025-09-17 00:19:43.440 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-17 00:19:44.669 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 00:19:45.621 +05:00 [INF] HTTP GET /api/Auth/profile => 401 in 23.330 ms
+2025-09-17 00:19:45.762 +05:00 [INF] HTTP GET /api/Service/categories => 200 in 2328.156 ms
+2025-09-17 00:19:45.814 +05:00 [INF] HTTP GET /api/Service/categories => 200 in 286.431 ms
+2025-09-17 00:19:45.894 +05:00 [INF] HTTP GET /api/Service/categories responded 200 in 2568.6589 ms
+2025-09-17 00:19:45.894 +05:00 [INF] HTTP GET /api/Auth/profile responded 401 in 325.5955 ms
+2025-09-17 00:19:45.894 +05:00 [INF] HTTP GET /api/Service/categories responded 200 in 379.6239 ms
+2025-09-17 00:19:51.980 +05:00 [INF] HTTP GET /api/Service/categories/1/issues => 200 in 169.909 ms
+2025-09-17 00:19:52.198 +05:00 [INF] HTTP GET /api/Service/categories/1/issues responded 200 in 401.9019 ms
+2025-09-17 00:20:01.488 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-17 00:20:17.175 +05:00 [INF] Handling GetAvailableSlotsQuery
+2025-09-17 00:20:21.827 +05:00 [INF] GetAvailableSlotsQuery took 4632 ms
+2025-09-17 00:20:21.832 +05:00 [INF] Handled GetAvailableSlotsQuery
+2025-09-17 00:20:21.850 +05:00 [INF] HTTP GET /api/Booking/available-slots => 200 in 20385.539 ms
+2025-09-17 00:20:21.877 +05:00 [INF] HTTP GET /api/Booking/available-slots responded 200 in 20419.4996 ms
+2025-09-17 00:20:52.857 +05:00 [INF] HTTP GET /api/Booking/me => 401 in 2.947 ms
+2025-09-17 00:20:52.889 +05:00 [INF] HTTP GET /api/Booking/me responded 401 in 37.2609 ms
+2025-09-17 00:20:54.657 +05:00 [INF] HTTP GET /api/Booking/me => 401 in 0.489 ms
+2025-09-17 00:20:54.663 +05:00 [INF] HTTP GET /api/Booking/me responded 401 in 7.4434 ms
+2025-09-17 00:20:56.239 +05:00 [INF] HTTP GET /api/Auth/profile => 401 in 0.153 ms
+2025-09-17 00:20:56.250 +05:00 [INF] HTTP GET /api/Auth/profile responded 401 in 11.6990 ms
+2025-09-17 00:20:56.974 +05:00 [INF] HTTP GET /api/Auth/profile => 401 in 0.149 ms
+2025-09-17 00:20:56.990 +05:00 [INF] HTTP GET /api/Auth/profile responded 401 in 16.3513 ms
+2025-09-17 00:21:30.937 +05:00 [INF] Server desktop-91hb9ir:14340:8d51a7e0 caught stopping signal...
+2025-09-17 00:21:31.164 +05:00 [INF] Application is shutting down...
+2025-09-17 00:21:31.483 +05:00 [INF] Server desktop-91hb9ir:14340:8d51a7e0 All dispatchers stopped
+2025-09-17 00:21:31.526 +05:00 [INF] Server desktop-91hb9ir:14340:8d51a7e0 successfully reported itself as stopped in 11.5657 ms
+2025-09-17 00:21:31.534 +05:00 [INF] Server desktop-91hb9ir:14340:8d51a7e0 has been stopped in total 411.2258 ms

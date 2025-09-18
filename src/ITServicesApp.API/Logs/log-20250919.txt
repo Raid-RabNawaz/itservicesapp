@@ -1,0 +1,18 @@
+2025-09-19 02:02:17.438 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-19 02:02:19.096 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-19 02:02:24.351 +05:00 [INF] Seeding complete.
+2025-09-19 02:02:25.640 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-19 02:02:25.971 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-19 02:02:26.069 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-19 02:02:26.207 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-19 02:02:26.316 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-19 02:02:26.457 +05:00 [INF] Hosting environment: Development
+2025-09-19 02:02:26.467 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-19 02:02:26.656 +05:00 [INF] Server desktop-91hb9ir:3848:e047450c successfully announced in 338.0791 ms
+2025-09-19 02:02:26.670 +05:00 [INF] Server desktop-91hb9ir:3848:e047450c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-19 02:02:26.704 +05:00 [INF] 1 servers were removed due to timeout
+2025-09-19 02:02:27.350 +05:00 [INF] Server desktop-91hb9ir:3848:e047450c all the dispatchers started

@@ -1,0 +1,66 @@
+2025-09-14 20:38:57.191 +05:00 [INF] Start installing Hangfire SQL objects...
+2025-09-14 20:38:59.701 +05:00 [INF] Hangfire SQL objects installed.
+2025-09-14 20:39:03.229 +05:00 [INF] Seeding complete.
+2025-09-14 20:39:03.700 +05:00 [INF] Now listening on: http://localhost:5154
+2025-09-14 20:39:03.896 +05:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: localhost@ITServicesAppDb'
+2025-09-14 20:39:03.902 +05:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2025-09-14 20:39:03.904 +05:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-09-14 20:39:04.002 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-14 20:39:04.017 +05:00 [INF] Hosting environment: Development
+2025-09-14 20:39:04.030 +05:00 [INF] Content root path: D:\Work\IT service app\src\ITServicesApp.API
+2025-09-14 20:39:04.390 +05:00 [INF] Server desktop-91hb9ir:9884:a5d96494 successfully announced in 386.2098 ms
+2025-09-14 20:39:04.402 +05:00 [INF] Server desktop-91hb9ir:9884:a5d96494 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-09-14 20:39:04.836 +05:00 [INF] Server desktop-91hb9ir:9884:a5d96494 all the dispatchers started
+2025-09-14 20:48:18.560 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-14 20:48:20.626 +05:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-14 20:48:20.860 +05:00 [INF] HTTP GET /api/service/categories => 200 in 2312.662 ms
+2025-09-14 20:48:20.892 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 2539.9332 ms
+2025-09-14 20:48:49.556 +05:00 [INF] HTTP GET /service/categories => 404 in 0.797 ms
+2025-09-14 20:48:49.605 +05:00 [INF] HTTP GET /service/categories responded 404 in 61.0222 ms
+2025-09-14 20:49:13.200 +05:00 [INF] HTTP GET /service/categories => 404 in 6.837 ms
+2025-09-14 20:49:13.250 +05:00 [INF] HTTP GET /service/categories responded 404 in 72.4170 ms
+2025-09-14 21:17:05.586 +05:00 [INF] HTTP GET /service/categories => 404 in 5.690 ms
+2025-09-14 21:17:56.361 +05:00 [INF] HTTP GET /service/categories => 404 in 0.132 ms
+2025-09-14 21:17:59.012 +05:00 [INF] HTTP GET /service/categories => 404 in 0.222 ms
+2025-09-14 21:21:00.310 +05:00 [INF] HTTP POST /api/api/auth/login => 404 in 0.097 ms
+2025-09-14 21:19:49.044 +05:00 [INF] HTTP POST /api/auth/login => 200 in 1289.661 ms
+2025-09-14 21:20:42.671 +05:00 [INF] HTTP POST /api/api/auth/login => 404 in 0.106 ms
+2025-09-14 21:21:58.666 +05:00 [INF] HTTP GET /api/service/categories => 200 in 13.425 ms
+2025-09-14 21:28:49.816 +05:00 [INF] HTTP GET /service/categories => 404 in 0.142 ms
+2025-09-14 21:29:21.288 +05:00 [INF] HTTP POST /api/auth/login => 200 in 196.159 ms
+2025-09-14 21:30:14.030 +05:00 [INF] HTTP POST /api/auth/login => 200 in 210.633 ms
+2025-09-14 21:49:10.379 +05:00 [INF] HTTP GET /service/categories => 404 in 0.172 ms
+2025-09-14 21:38:50.341 +05:00 [INF] HTTP POST /api/auth/login => 200 in 279.263 ms
+2025-09-14 21:40:44.429 +05:00 [INF] HTTP POST /api/auth/login => 200 in 159.806 ms
+2025-09-14 21:39:20.029 +05:00 [INF] HTTP POST /api/auth/login => 200 in 226.686 ms
+2025-09-14 21:50:15.238 +05:00 [INF] HTTP GET /api/service/categories => 200 in 14.335 ms
+2025-09-14 21:50:34.650 +05:00 [INF] HTTP GET /api/service/categories => 200 in 27.338 ms
+2025-09-14 21:22:41.390 +05:00 [INF] HTTP GET /service/categories => 404 in 0.091 ms
+2025-09-14 21:50:56.913 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 1738258.4423 ms
+2025-09-14 21:50:56.936 +05:00 [INF] HTTP GET /service/categories responded 404 in 2031370.6918 ms
+2025-09-14 21:50:56.940 +05:00 [INF] HTTP GET /service/categories responded 404 in 1977930.0435 ms
+2025-09-14 21:50:56.943 +05:00 [INF] HTTP POST /api/api/auth/login responded 404 in 1796667.8006 ms
+2025-09-14 21:50:56.938 +05:00 [INF] HTTP GET /service/categories responded 404 in 1980583.8469 ms
+2025-09-14 21:50:56.946 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 1869193.9121 ms
+2025-09-14 21:50:56.948 +05:00 [INF] HTTP POST /api/api/auth/login responded 404 in 1814278.7164 ms
+2025-09-14 21:50:56.960 +05:00 [INF] HTTP GET /service/categories responded 404 in 1327145.1841 ms
+2025-09-14 21:50:56.964 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 1295877.6007 ms
+2025-09-14 21:50:56.971 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 1243157.7138 ms
+2025-09-14 21:50:57.027 +05:00 [INF] HTTP GET /service/categories responded 404 in 1695642.0325 ms
+2025-09-14 21:50:56.975 +05:00 [INF] HTTP GET /service/categories responded 404 in 106598.4375 ms
+2025-09-14 21:50:56.979 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 726920.2384 ms
+2025-09-14 21:50:56.986 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 612719.3049 ms
+2025-09-14 21:50:56.991 +05:00 [INF] HTTP POST /api/auth/login responded 200 in 697189.9633 ms
+2025-09-14 21:50:56.995 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 41771.7276 ms
+2025-09-14 21:50:57.001 +05:00 [INF] HTTP GET /api/service/categories responded 200 in 22378.7742 ms
+2025-09-14 21:51:09.015 +05:00 [WRN] Stopping the server due to DomainUnload or ProcessExit event...
+2025-09-14 21:51:09.019 +05:00 [INF] Server desktop-91hb9ir:9884:a5d96494 caught stopping signal...
+2025-09-14 21:51:09.025 +05:00 [INF] Server desktop-91hb9ir:9884:a5d96494 caught stopped signal...
+2025-09-14 21:51:09.028 +05:00 [WRN] Server desktop-91hb9ir:9884:a5d96494 caught shutdown signal...
+2025-09-14 21:51:09.041 +05:00 [WRN] Server desktop-91hb9ir:9884:a5d96494 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2025-09-14 21:51:09.067 +05:00 [INF] Server desktop-91hb9ir:9884:a5d96494 successfully reported itself as stopped in 18.5646 ms
+2025-09-14 21:51:09.070 +05:00 [INF] Server desktop-91hb9ir:9884:a5d96494 has been stopped in total 48.0229 ms

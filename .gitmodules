@@ -1,0 +1,3 @@
+[submodule "web/itservicesapp.web"]
+	path = web/itservicesapp.web
+	url = https://github.com/Raid-RabNawaz/itservicesapp
